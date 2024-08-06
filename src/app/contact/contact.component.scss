@@ -1,0 +1,35 @@
+.page-content{
+    display: flex;
+    margin: 70px 65px;
+}
+.left{
+    width: 35%;
+    margin-right: 30px;
+    background: url("../../../public/img-angular/img7.jpg") no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 65%;
+}
+.container h1{
+    font-weight: 700;
+}
+.form-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-content input{
+    border: 1px solid rgb(176, 168, 168);
+    border-radius: 15px;
+}
+label{
+    text-transform: uppercase;
+}
+.btn{
+    background-color: black;
+    color: #ddd;
+}
+.btn:hover{
+    background-color: rgb(141, 135, 135);
+}

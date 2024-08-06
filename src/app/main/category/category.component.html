@@ -1,0 +1,13 @@
+<div class="conteneur">
+    <div>
+        <h2>Simple et Savoureux</h2>
+    </div>
+    <div>
+        <p>Voir Toutes les Catégories</p>
+    </div>
+</div>
+<div class="row row-cols-1 row-cols-md-6 g-4">
+    <div *ngFor="let categorie of categories">
+        <app-category-item [category]="categorie"></app-category-item> 
+    </div>
+</div>

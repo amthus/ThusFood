@@ -1,0 +1,44 @@
+.parent{
+    margin-top: 50px;
+}
+.content1, .content2{
+    margin: auto;
+}
+.content1 h2, .content1 p{
+    text-align: center;
+}
+.content1 p{
+    color: gray;
+    font-size: 1.1em;
+}
+.content2{
+    margin-top: 50px;
+}
+
+
+.formu {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 50px;
+    border: 1px solid rgb(159, 157, 157);
+    border-radius: 8px;
+    margin: auto;
+    background-color: #fff;
+  }
+  .formu input[type="submit"] {
+    width: 25%;
+    background-color: #000;
+    color: #ddd;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    padding: 0;
+
+}
+.formu input[type="text"] {
+    width: 50%;
+    border: none;
+  }

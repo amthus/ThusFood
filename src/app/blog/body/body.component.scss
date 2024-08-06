@@ -1,0 +1,74 @@
+.parent{
+    margin: 70px 65px;
+    display: flex;
+}
+.conteneur{
+    display: flex;
+}
+.fils-gauche{
+    width: 65%;
+    margin-right: 20px;
+}
+.other{
+    width: 35%;
+    height: 850px;
+    margin-top: 30px;
+}
+.other h2{
+    margin-bottom: 20px;
+}
+.recipe{
+    display: flex;
+    margin-top: 10px;
+}
+.recipe-img{
+    width: 170px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background: url("../../../../public/img-angular/img1.png") no-repeat;
+    background-size: cover;
+}
+.recipe-img2{
+    width: 170px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background: url("../../../../public/img-angular/img2") no-repeat;
+    background-size: cover;
+}
+.recipe-img3{
+    width: 170px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background: url("../../../../public/img-angular/img3.jpg") no-repeat;
+    background-size: cover;
+}
+.recipe-desc{
+    width: 170px;
+    height: 120px;
+    margin-top: 10px;
+}
+.recipe-desc p{
+    padding-top: 10px;
+}
+.top-menu{
+    width: 350px;
+    height: 380px;
+    margin-top: 50px;
+    background: url("../../../../public/img-angular/img4.jpg") no-repeat;
+    background-size: cover;
+}
+.paginations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paginations a{
+    color: #030303;
+}
+.paginations a:hover{
+    background-color: #030303;
+    color: #ddd;
+}

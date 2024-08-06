@@ -1,0 +1,41 @@
+.contains{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.content-img{
+    width: 25%;
+}
+.content-img img{
+    border-radius: 12px;
+}
+.content-text{
+    width: 70%;
+}
+
+.author{
+    width: 50px;
+    height: 50px;
+    background: url("../../../../public/img-angular/avatar3.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.author-infos{
+    display: flex;
+}
+
+.author-name{
+    padding-right: 55px;
+    margin-right: 65px;
+    border-right: 2px solid gray;
+}
+.author-name, .date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date p, .content-text h3~p{
+    color: gray;
+}

@@ -1,0 +1,17 @@
+<div class="parent">
+  <div class="conteneur">
+    <h2>Découvrez ThusFood sur Instagram</h2>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates nam
+      repellendus illo.
+    </p>
+  </div>
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div *ngFor="let post of posts">
+      <app-instagram-item [instagram]="post"></app-instagram-item>
+    </div>
+  </div>
+  <div class="bouton">
+    <a href="">Visitez notre Instagram <i class="fa-brands fa-instagram"></i></a>
+  </div>
+</div>

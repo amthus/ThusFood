@@ -1,0 +1,19 @@
+<div class="contains">
+    <div class="content-img">
+        <img src="{{article?.cover}}" class="card-img-top" alt="..." style="height: 150px;">
+    </div>
+    <div class="content-text">
+        <h3>{{ article?.title }}</h3>
+        <p>{{ article?.description }}</p>
+        <div class="author-infos">
+            <div class="author">                    
+            </div>
+            <div class="author-name">
+                {{ article?.author }}
+            </div>
+            <div class="date">
+                {{ formattedDate }}
+            </div>
+        </div>
+    </div>
+</div>

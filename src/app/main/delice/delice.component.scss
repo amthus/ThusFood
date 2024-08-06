@@ -1,0 +1,12 @@
+.row {
+  margin: 40px 65px;
+}
+.conteneur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 75px;
+}
+.conteneur h2, .conteneur p{
+    text-align: center;
+}

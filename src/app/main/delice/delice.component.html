@@ -1,0 +1,15 @@
+<div class="conteneur">
+    <div>
+        <h2>Simple et Savoureux recettes</h2>
+    </div>
+    <div>
+        <p>
+            Découvrez nos plats raffinés, préparés avec passion et des ingrédients de qualité. Nous vous invitons à savourer des créations culinaires qui raviront vos papilles et vous offriront une expérience gastronomique inoubliable
+        </p>
+    </div>
+</div>
+<div class="row row-cols-1 row-cols-md-4 g-4">
+    <div *ngFor="let recipe of recipes">
+        <app-simple-recipe-item [simplerecipe]="recipe"></app-simple-recipe-item> 
+    </div>
+</div>

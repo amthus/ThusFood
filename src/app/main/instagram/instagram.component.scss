@@ -1,0 +1,31 @@
+.parent{
+    margin: 10px;
+    background-color: rgb(241, 255, 255);
+    height: 700px;
+}
+.row {
+  margin: 40px 65px;
+}
+
+.conteneur{
+    padding-top: 80px;
+}
+.conteneur h2, .conteneur p{
+    text-align: center;
+}
+.bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.bouton a{
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #151414;
+    border-radius: 8px;
+    background-color: #151414;
+    color: #ddd;
+    padding: 15px;
+}

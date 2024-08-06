@@ -1,0 +1,11 @@
+<div class="conteneur">
+    <h2> recipes</h2>
+    <p>
+        Découvrez nos plats raffinés, préparés avec passion et des ingrédients de qualité. Nous vous invitons à savourer des créations culinaires qui raviront vos papilles et vous offriront une expérience gastronomique inoubliable
+    </p>
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div *ngFor="let recipe of recipes">
+        <app-simple-recipe-item [simplerecipe]="recipe"></app-simple-recipe-item> 
+    </div>
+</div>

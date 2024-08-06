@@ -1,0 +1,15 @@
+<div class="col">
+    <div class="card h-100">
+      <div class="love">
+        <img src="{{simplerecipe?.cover}}" class="card-img-top" alt="..." style="height: 250px;">
+        <i class="fa-regular fa-heart" id="heart" (click)="toggleLike()"></i>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">{{simplerecipe?.description}}</h5>
+      </div>
+      <div class="card-footer">
+            <p><i class="fa-solid fa-clock"></i>  25 minutes</p>
+            <p class="titre"><i class="fa-solid fa-utensils"></i>  {{simplerecipe?.title}}</p>
+      </div>
+    </div>
+</div>
